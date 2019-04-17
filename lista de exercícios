@@ -1,0 +1,117 @@
+##### EXERCÍCIO 1 #####									
+										
+import math									
+a = 2*4 == 24/3									
+b = (15 % 4) < (19 % 6)								
+c = (2 < 15) != (8 == 8)							
+d = True or False						
+e = 2**2 == math.pow(2,2)
+f = False and ((7/2) > 3.5)
+g = (math.ceil(2.5) == 3) and (math.sqrt(9) == 3)
+
+print("valor a", a)
+print("valor b", b)
+print("valor c", c)
+print("valor d", d)
+print("valor e", e)
+print("valor f", f)
+print("valor g", g)
+
+---------------------------------------------------------------------------------
+##### EXERCÍCIO 2 #####
+
+m = float(input("digite o valor em metros "))
+
+print("o valor em milímetros é ", m*1000)
+
+---------------------------------------------------------------------------------
+##### EXERCÍCIO 3 #####
+
+dias = float(input("escreva a quantidade de dias "))
+horas = float(input("escreva a quantidade de horas "))
+minutos = float(input("escreva a quantidade de minutos "))
+seg = float(input("escreva a quantidade em segundos "))
+total = (dias*86400)+(horas*3600)+(minutos*60)+(seg)
+
+print("o total em segundos é", total)
+
+---------------------------------------------------------------------------------
+##### EXERCÍCIO 4 #####
+
+sal = float(input("digite o valor do salário "))
+aum = float(input("digite o aumento em porcentagem "))
+va_al = sal*aum/100
+nsal = va_al + sal
+
+print("o valor aumentado equivale em R$", va_al)
+print("o valor do novo salário é", nsal)
+
+---------------------------------------------------------------------------------
+##### EXERCÍCIO 5 #####
+
+mrc = float(input("digite o preço da mercadoria"))
+desc = float(input("digite o percentual de desconto"))
+des = mrc*desc/100
+pap = mrc-des
+
+print("o valor do desconto é", des )
+print("o valor total do produto é", pap)
+
+---------------------------------------------------------------------------------
+##### EXERCÍCIO 6 #####
+
+d = float(input("digite a distância que será percorrida em Km "))
+vm = float(input("digite a velocidade média do veículo em Km/h "))
+t = d/vm
+
+print("o tempo de viagem será em Horas", t)
+
+--------------------------------------------------------------------------------
+##### EXERCÍCIO 7 #####
+
+c = float(input("insira um valor em Cº "))
+f = 9*c/5+32
+
+print(f,"ºF")
+
+--------------------------------------------------------------------------------
+##### EXERCÍCIO 8 #####
+
+km_perc = float(input("quantidade de quilômetros rodados  "))
+dias = float(input("dias que o carro foi alugado "))
+prç_km = km_perc*0.15
+prç_dia = dias*60
+total = prç_dia + prç_km
+
+print("o valor total será", total)
+
+-------------------------------------------------------------------------------
+##### EXERCÍCIO 9 #####
+
+c_p_d = float(input("quantos cigarros o sr(a) fuma por dia "))
+c_j_f = float(input("há quanto tempo o(a) sr(a) fuma?(em anos) "))
+min_perdido = c_p_d*10
+min_ano_perdido = c_j_f*525600
+dias_perdidos = min_perdido*min_ano_perdido/1440/8760
+
+print("a quantidade de dias perdidos da sua vida é =", dias_perdidos)
+
+------------------------------------------------------------------------------
+##### EXERCÍCIO 10 #####
+
+import math
+ap = float(input("tamanho da area a ser pintada em metros quadrados"))
+l_eq = ap//6
+p_lat = 80
+l_lat = 18
+p_gal = 25
+l_gal = 3.6
+l_2 = 84
+p_2 = 105
+a = math.ceil(l_eq/l_lat) *p_lat
+b = math.ceil(l_eq/l_gal) *p_gal
+c = math.ceil(l_eq/l_2) * p_2
+print("A quantidade de tinta necessária será de", l_eq, "litros")
+print("o preço se comprar apenas latas", a)
+print("o preço se comprar apenas galões", b)
+print("o preço se misturar os ambos", c)
