@@ -1,0 +1,9 @@
+##### EXERCÍCIO 3 #####
+
+dias = float(input("escreva a quantidade de dias "))
+horas = float(input("escreva a quantidade de horas "))
+minutos = float(input("escreva a quantidade de minutos "))
+seg = float(input("escreva a quantidade em segundos "))
+total = (dias*86400)+(horas*3600)+(minutos*60)+(seg)
+
+print("o total em segundos é", total)
