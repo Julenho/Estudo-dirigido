@@ -1,0 +1,18 @@
+##### EXERCÍCIO 10 #####
+
+import math
+ap = float(input("tamanho da area a ser pintada em metros quadrados"))
+l_eq = ap//6
+p_lat = 80
+l_lat = 18
+p_gal = 25
+l_gal = 3.6
+l_2 = 84
+p_2 = 105
+a = math.ceil(l_eq/l_lat) *p_lat
+b = math.ceil(l_eq/l_gal) *p_gal
+c = math.ceil(l_eq/l_2) * p_2
+print("A quantidade de tinta necessária será de", l_eq, "litros")
+print("o preço se comprar apenas latas", a)
+print("o preço se comprar apenas galões", b)
+print("o preço se misturar os ambos", c)
