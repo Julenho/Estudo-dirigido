@@ -1,0 +1,9 @@
+##### EXERCÍCIO 8 #####
+
+km_perc = float(input("quantidade de quilômetros rodados  "))
+dias = float(input("dias que o carro foi alugado "))
+prç_km = km_perc*0.15
+prç_dia = dias*60
+total = prç_dia + prç_km
+
+print("o valor total será", total)
