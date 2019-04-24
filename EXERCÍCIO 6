@@ -1,0 +1,7 @@
+##### EXERCÍCIO 6 #####
+min_perdido*min_ano_perdido/1440/8760
+d = float(input("digite a distância que será percorrida em Km "))
+vm = float(input("digite a velocidade média do veículo em Km/h "))
+t = d/vm
+
+print("o tempo de viagem será em Horas", t)
