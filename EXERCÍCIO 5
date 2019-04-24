@@ -1,0 +1,9 @@
+##### EXERCÍCIO 5 #####
+
+mrc = float(input("digite o preço da mercadoria"))
+desc = float(input("digite o percentual de desconto"))
+des = mrc*desc/100
+pap = mrc-des
+
+print("o valor do desconto é", des )
+print("o valor total do produto é", pap)
