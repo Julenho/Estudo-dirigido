@@ -1,0 +1,9 @@
+##### EXERCÍCIO 9 #####
+import math
+c_p_d = float(input("quantos cigarros o sr(a) fuma por dia "))
+c_j_f = float(input("há quanto tempo o(a) sr(a) fuma?(em anos) "))
+min_perdido = c_p_d*10
+min_ano_perdido = c_j_f*525600
+dias_perdidos = math.ceil(min_perdido*min_ano_perdido/1440/8760)
+
+print("a quantidade de dias perdidos da sua vida é =", dias_perdidos)
