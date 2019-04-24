@@ -1,0 +1,6 @@
+##### EXERCÍCIO 7 #####
+
+c = float(input("insira um valor em Cº "))
+f = 9*c/5+32
+
+print(f,"ºF")
