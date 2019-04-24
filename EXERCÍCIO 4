@@ -1,0 +1,9 @@
+##### EXERCÍCIO 4 #####
+
+sal = float(input("digite o valor do salário "))
+aum = float(input("digite o aumento em porcentagem "))
+va_al = sal*aum/100
+nsal = va_al + sal
+
+print("o valor aumentado equivale em R$", va_al)
+print("o valor do novo salário é", nsal)
