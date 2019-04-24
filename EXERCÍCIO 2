@@ -1,0 +1,5 @@
+##### EXERCÍCIO 2 #####
+
+m = float(input("digite o valor em metros "))
+
+print("o valor em milímetros é ", m*1000)
